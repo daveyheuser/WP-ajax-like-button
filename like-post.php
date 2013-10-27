@@ -14,7 +14,7 @@ add_action('wp_head', 'add_ajax_url');
 
 /*******************************
  * likeCount:
- * Get current like count, this is used to show the amount of likes to the user and it's output will be used by the like_callback() function
+ * Get current like count, this is used to show the amount of likes to the user
 *******************************/
 
 function likeCount($id){
